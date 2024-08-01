@@ -1,0 +1,104 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: #ffffff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+header h1 {
+  margin-bottom: 0.5em;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1em;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #4CAF50;
+  color: #ffffff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Estilos específicos para cada página */
+
+/* Estilos para a página de produtos */
+.produtos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.produto {
+  background-color: #ffffff;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 300px;
+}
+
+.produto h2 {
+  margin-bottom: 0.5em;
+}
+
+.produto img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+.produto .preco {
+  font-weight: bold;
+}
+
+.produto .btn {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  margin-top: 1em;
+}
+
+.produto .btn:hover {
+  background-color: #45A049;
+}
+
+/* Estilos para o formulário de contato */
+.contato {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0 0
+}
